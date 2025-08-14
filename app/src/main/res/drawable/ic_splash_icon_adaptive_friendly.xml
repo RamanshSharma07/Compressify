@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Optional: A background color/shape if you want it to fill the mask -->
+    <!-- <item>
+        <shape android:shape="oval">
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item> -->
+
+    <!-- Your actual logo, scaled down and centered with padding -->
+    <!-- The inset values create the padding -->
+    <item
+        android:drawable="@drawable/compressify_logo"
+        android:width="108dp"
+        android:height="108dp"
+        android:gravity="center"
+        android:left="20dp" android:right="20dp"
+        android:top="20dp" android:bottom="20dp" /> <!-- Adjust padding -->
+</layer-list>

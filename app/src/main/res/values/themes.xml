@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Compressify" parent="Theme.AppCompat" />
+
+    <!-- Splash Screen Theme -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- Set the splash screen background (gradient or a solid color) -->
+        <item name="windowSplashScreenBackground">@drawable/splash_gradient_background</item>
+        <!-- Or for a solid color: <item name="windowSplashScreenBackground">@color/your_splash_color</item> -->
+
+        <!-- Set the icon to display on the splash screen -->
+        <!-- This can be your static app logo or an AnimatedVectorDrawable -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_icon_adaptive_friendly</item>
+        <!-- For no icon, you can use: <item name="windowSplashScreenAnimatedIcon">@null</item> -->
+
+        <!-- Optional: Duration of the icon animation (if using AnimatedVectorDrawable) -->
+        <!-- <item name="windowSplashScreenAnimationDuration">1000</item> -->
+
+        <!-- Set the theme of the Activity that follows your splash screen. -->
+        <!-- This should be your app's main theme. -->
+        <item name="postSplashScreenTheme">@style/Theme.Compressify</item>
+    </style>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Background -->
+    <path
+        android:fillColor="#00BCD4"
+        android:pathData="M20,20h160a10,10 0 0,1 10,10v140a10,10 0 0,1 -10,10h-160a10,10 0 0,1 -10,-10v-140a10,10 0 0,1 10,-10z"
+        android:strokeWidth="0"/>
+
+    <!-- Image icon -->
+    <path
+        android:fillColor="#FFEB3B"
+        android:pathData="M50,130 L90,80 L120,110 L150,70 L170,140 L50,140 Z"/>
+
+    <!-- Sun -->
+    <path
+        android:fillColor="#FF5722"
+        android:pathData="M60,60 A10,10 0 1,0 80,60 A10,10 0 1,0 60,60"/>
+
+    <!-- Left compress arrow -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M15,100 L45,80 L45,90 L70,90 L70,110 L45,110 L45,120 Z"/>
+
+    <!-- Right compress arrow -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M185,100 L155,80 L155,90 L130,90 L130,110 L155,110 L155,120 Z"/>
+
+    <!-- Text "Compressify" as vector lines not included (use TextView or Image for full branding) -->
+
+</vector>
